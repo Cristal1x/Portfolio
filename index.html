@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <ul class="header__nav list-reset" hidden>
+      <li class="header__item"><a href="#home" class="header__link">Главная</a></li>
+      <li class="header__item"><a href="#about" class="header__link">Обо мне</a></li>
+      <li class="header__item"><a href="#skill" class="header__link">Навыки</a></li>
+      <li class="header__item"><a href="#works" class="header__link">Мои работы</a></li>
+      <li class="header__item"><a href="#social" class="header__link">Контакты</a></li>
+    </ul>
+    <div class="header__button" hidden></div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h1 class="hero__title">Серагов Андрей</h1>
+      <p class="hero__descr">Начинающий верстальщик г.Дубна</p>
+      <img src="img/foto-fas.jpg" alt="фото" width="317"  class="hero__image">
+      <div class="hero__button"></div>
+    </section>
+
+    <section class="about_me" id="about">
+      <h2 class="about_me__title">Обо мне</h2>
+      <p class="about_me__descr">Привет, меня зовут Андрей. Я начинающий верстальщик из г.Дубна. 
+        Изучаю верстку и все что с ней связано.</p>
+      <p class="about_me__descr">В прошлом трудился в сфере Авиационной промышленности. 
+        Сейчас решил погрузиться в  новое для себя направление, верстки и frontend разработки. </p>
+      <p class="about_me__descr">Буду рад с Вами работать, применить свои знания и получить новый опыт.</p>
+    </section>
+
+    <section class="skills" id="skill">
+      <h2 class="skills__title">Навыки</h2>
+      <ul class="skills__list list-reset">
+        <li class="skills__item">HTML
+          <div class="skills__scale skills__scale--html"></div>
+        </li>
+        <li class="skills__item">CSS
+          <div class="skills__scale skills__scale--css"></div>
+        </li>
+        <li class="skills__item">JavaScript
+          <div class="skills__scale skills__scale--js"></div>
+        </li>
+        <li class="skills__item">Верста по макетам Figma и Photoshop</li>
+        <li class="skills__item">Применение методологии БЭМ в верстке</li>
+        <li class="skills__item">Использование Git (пока без опыта работы в команде)</li>
+      </ul>
+    </section>
+
+    <section class="portfolio" id="works">
+      <h2 class="portfolio__title">Мои работы</h2>
+      <ul class="portfolio__list list-reset">
+        <li class="portfolio__item">
+          <img src="img/BrightLights.jpg" alt="BrightLights landing page" class="portfolio__image">
+          <a href="https://cristal1x.github.io/BrightLights/" class="portfolio__link">BrightLights Landing Page - Concept</a>
+        </li>
+        <li class="portfolio__item">
+          <img src="img/Sedona.jpg" alt="Sedona Site - Concept" class="portfolio__image">
+          <a href="https://cristal1x.github.io/Sedona/" class="portfolio__link">Sedona Site - Concept</a>
+        </li>
+        <li class="portfolio__item">
+          <img src="img/Moon_river.jpg" alt="Moon_River Landing Page - Concept" class="portfolio__image">
+          <a href="https://cristal1x.github.io/Moon_River/" class="portfolio__link">Moon_River Landing Page - Concept</a>
+        </li>
+        <li class="portfolio__item">
+          <img src="img/Clean_and_simple.jpg" alt="Clean_and_simple Landing Page - Concept" class="portfolio__image">
+          <a href="https://cristal1x.github.io/Clean_and_simple/" class="portfolio__link">Clean_and_simple Landing Page - Concept</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="contacts" id="social">
+    <h2 class="contacts__title">Контакты</h2>
+    <a href="mailto:cristalix6@gmail.com" class="contancts__email">Написать письмо</a>
+    <a href="tel:+79859271558" class="contacts__phone">Телефон: 8 985 927-15-58</a>
+  </footer>
+  
+  <script src="js/nav.js"></script>
+</body>
+</html>
