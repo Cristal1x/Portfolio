@@ -188,8 +188,8 @@ img {
 }
 
 .skills__scale--js::before {
-  content: '10%';
-  width: 10%;
+  content: '50%';
+  width: 50%;
   background-color: #ff6347;
 }
 
